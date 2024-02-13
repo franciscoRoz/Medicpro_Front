@@ -1,0 +1,48 @@
+.bloque-form-order{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: left;
+}
+.element-subirdocumentos{
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.element-boton{
+    border-radius: 40px;
+    
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    color: white;
+   }
+   .element-boton.cerrar{
+       background-color: red;
+   }
+   .element-boton.agregar{
+    background-color: #1477d2;
+}
+.Tablaproducto {
+    border-collapse: collapse; margin: 25px 0; font-size: 1em; font-family: sans-serif; min-width: 100%; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+  }
+  
+  .Tablaproducto thead tr { background-color: #1477d2; color: #ffffff; text-align: middle; }
+  
+  .Tablaproducto tbody>tr {
+    border-bottom: 1px solid #dddddd; 
+  }
+  
+  .Tablaproducto tbody>tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .Tablaproducto tbody>tr:last-of-type  {
+    border-bottom: 2px solid #1477d2;
+  }
+
+  .Tablaproducto th, .Tablaproducto td {
+   
+    padding: 12px 15px;
+  }

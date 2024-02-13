@@ -1,0 +1,27 @@
+.bloque-filtro-productos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.modifier-buscar{
+    margin: 15px;
+}
+td>img{
+    margin-left: 30%;
+}
+.element-edit-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.element-boton.Guardar{
+    background-color:#0747a1 ;
+}
+.element-save-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}

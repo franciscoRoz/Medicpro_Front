@@ -1,0 +1,67 @@
+.elemento-seguimiento {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.modifier-select-seguimiento {
+    padding: 5px;
+}
+
+.bloque-detalle-seguimiento {
+    overflow: auto;
+}
+
+.modifier-separador {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modifier-botton {
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    color: white;
+}
+.modifier-botton.agregar{
+    background-color: #1477d2;
+}
+
+.modifier-botton.guardar{
+    background-color: #1477d2;
+    margin: 10px;
+    border-radius: 10px;
+}
+.modifier-input.adquisiciones{
+    width: 100%;
+}
+.element-boton{
+    border-radius: 40px;
+    
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    color: white;
+   }
+   .element-boton.cerrar{
+       background-color: red;
+   }
+   .element-boton.guardar{
+    background-color: #1477d2;
+}
+.element-tabla{
+    padding: 15px;
+}
+.element-tabla>tbody>tr>td{
+    padding: 3px 20px 3px 20px;
+}
+.modifier-documento{
+    border-bottom: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+}

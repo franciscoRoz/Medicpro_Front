@@ -1,0 +1,117 @@
+
+
+.bloque-inputform {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px
+}
+
+.element-input {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    min-width: 150px;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.modifier-titulo {
+    width: 200px;
+}
+
+.modifier-input {
+    width: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.bloque-porcentajes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    width: 95%;
+}
+
+.modifier-separador {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 2%;
+    font-weight: 700;
+}
+
+.bloque-agregarproducto{
+    
+    width: 100%;
+   
+}
+.elment-boton-agregarproducto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.modifier-agregar-productos{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1477d2;
+}
+.bloque-acciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+}
+.element-boton{
+ border-radius: 40px;
+ 
+ padding: 10px 30px 10px 30px;
+ font-size: 15px;
+ color: white;
+}
+.element-boton.cerrar{
+    background-color: red;
+}
+.element-boton.agregar{
+    background-color: green;
+}
+
+.Tablaproducto {
+    border-collapse: collapse; margin: 25px 0; font-size: 1em; font-family: sans-serif; min-width: 100%; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+  }
+  
+  .Tablaproducto thead tr { background-color: #1477d2; color: #ffffff; text-align: middle; }
+  
+  .Tablaproducto tbody>tr {
+    border-bottom: 1px solid #dddddd; 
+  }
+  
+  .Tablaproducto tbody>tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .Tablaproducto tbody>tr:last-of-type  {
+    border-bottom: 2px solid #1477d2;
+  }
+
+  .Tablaproducto th, .Tablaproducto td {
+   
+    padding: 12px 15px;
+  }
+
+  .element-generarcompra{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .element-generarcompra button{
+    font-size: 15px;
+    padding: 15px 35px 15px 35px ;
+    border-radius: 30px;
+    color: white;
+    background-color: #1477d2;
+  }

@@ -15,15 +15,15 @@ export const AppRoutes = () => {
   return (
     <Routes>
         <Route path='/*' element={<App/>}/>
-        <Route path='/Medicpro_Front/Generar-adquisicion-asia' element={<Adquisicion/>}/>
-        <Route path="/Medicpro_Front/Generar-adquisicion-America" element={<AdquisicionAmerica/>}/>
-        <Route path="/Medicpro_Front/Lista-Productos" element={<ListaProductos/>}/>
-        <Route path="/Medicpro_Front/Manejo-de-Stock" element={<ListaProductosEdit/>}/>
-        <Route path='/Medicpro_Front/Seguimiento-Pedidos' element={<SeguimientoAdquisicion/>}/>
-        <Route path='/Medicpro_Front/Ingreso-Ventas' element={<IngresarVenta/>}/>
-        <Route path='/Medicpro_Front/Adm.-de-Facturas' element={<ListadeOrdenCompra/>}/>
+        <Route path='Medicpro_Fron/Generar-adquisicion-asia' element={<Adquisicion/>}/>
+        <Route path="Medicpro_Fron/Generar-adquisicion-America" element={<AdquisicionAmerica/>}/>
+        <Route path="Medicpro_Fron/Lista-Productos" element={<ListaProductos/>}/>
+        <Route path="Medicpro_Fron/Manejo-de-Stock" element={<ListaProductosEdit/>}/>
+        <Route path='Medicpro_Fron/Seguimiento-Pedidos' element={<SeguimientoAdquisicion/>}/>
+        <Route path='Medicpro_Fron/Ingreso-Ventas' element={<IngresarVenta/>}/>
+        <Route path='Medicpro_Fron/Adm.-de-Facturas' element={<ListadeOrdenCompra/>}/>
         
-        <Route path='/Medicpro_Front/paginaError' element={<App/>}/>
+        <Route path='/paginaError' element={<App/>}/>
         
     </Routes>
   )

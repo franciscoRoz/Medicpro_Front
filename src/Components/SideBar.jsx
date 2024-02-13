@@ -69,7 +69,7 @@ const SubNavButton= ({
       className={isActive ? "active" : ""}
     >
       {icon && <Icon icon={icon} />}
-      <a className="SubnavButton" href={name.replaceAll(' ','-')}>{name}</a>
+      <a className="SubnavButton" href={name.replaceAll(' ','')}>{name}</a>
       {hasSubNav && <img alt="arrow down" src="https://res.cloudinary.com/dgi90lgbq/image/upload/v1705254404/dqvbyntcl9tuy7exunrk.png" width={"15px"} height={"15px"} />}
     </button>
   );
@@ -108,7 +108,6 @@ export const Sidebar = () => {
   const [activeItem, setActiveItem] = useState("");
 
   const handleClick = (item) => {
-    console.log("activeItem", activeItem);
     setActiveItem(item !== activeItem ? item : "");
   };
 

@@ -3,20 +3,19 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 
-import {AppRoutes} from './Routes/AppRoutes'
-import { BrowserRouter } from 'react-router-dom';
-import {Sidebar} from './Components/SideBar'
-//import { HashRouter } from 'react-router-dom';
+import { AppRoutes } from './Routes/AppRoutes'
+import { BrowserRouter, Link } from 'react-router-dom';
+import { Sidebar } from './Components/SideBar';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-   <Sidebar/>
-   
-    <BrowserRouter>
+  <React.StrictMode >
     
-    <div className='bloque-layout'><AppRoutes /></div>
+    <BrowserRouter>
+    <Link to="/Generaradquisicionasia">boton para ir a adquisicion</Link>
+    <AppRoutes />
     </BrowserRouter>
   
-  </React.StrictMode>,
+  </React.StrictMode>
 );
-

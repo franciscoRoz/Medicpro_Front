@@ -12,7 +12,7 @@ import { ListadeOrdenCompra } from '../Screen/VentasyFacturas/ListadeOrdenCompra
 export const AppRoutes = () => {
   return (
     <Routes>
-        <Route path='/*' element={<Adquisicion/>}/>
+        <Route path='/*' element={<ListaProductos/>}/>
         <Route path='/Generaradquisicionasia' element={<Adquisicion/>}/>
         <Route path="/GeneraradquisicionAmerica" element={<AdquisicionAmerica/>}/>
         <Route path="/ListaProductos" element={<ListaProductos/>}/>
@@ -21,7 +21,7 @@ export const AppRoutes = () => {
         <Route path='/IngresoVentas' element={<IngresarVenta/>}/>
         <Route path='/Adm.deFacturas' element={<ListadeOrdenCompra/>}/>
         
-        <Route path='/paginaError' element={<AdquisicionAmerica/>}/>
+        <Route path='*/paginaError' element={<AdquisicionAmerica/>}/>
         
     </Routes>
   )

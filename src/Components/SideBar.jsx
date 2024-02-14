@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import "../CSS/sidebar.css";
+import { Link } from "react-router-dom";
 
 
 const menuItems = [
@@ -69,7 +70,9 @@ const SubNavButton= ({
       className={isActive ? "active" : ""}
     >
       {icon && <Icon icon={icon} />}
-      <a className="SubnavButton" href={name.replaceAll(' ','')}>{name}</a>
+      <Link className="SubnavButton" to={name.replaceAll(' ', '')}>{name}</Link>
+      {//<a className="SubnavButton" href={name.replaceAll(' ','')}>{name}</a>
+      }
       {hasSubNav && <img alt="arrow down" src="https://res.cloudinary.com/dgi90lgbq/image/upload/v1705254404/dqvbyntcl9tuy7exunrk.png" width={"15px"} height={"15px"} />}
     </button>
   );

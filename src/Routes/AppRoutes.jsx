@@ -13,13 +13,13 @@ export const AppRoutes = () => {
   return (
     <Routes>
         <Route path='/*' element={<ListaProductos/>}/>
-        <Route path='/Generaradquisicionasia' element={<Adquisicion/>}/>
-        <Route path="/GeneraradquisicionAmerica" element={<AdquisicionAmerica/>}/>
-        <Route path="/ListaProductos" element={<ListaProductos/>}/>
-        <Route path="/ManejodeStock" element={<ListaProductosEdit/>}/>
-        <Route path='/SeguimientoPedidos' element={<SeguimientoAdquisicion/>}/>
-        <Route path='/IngresoVentas' element={<IngresarVenta/>}/>
-        <Route path='/Adm.deFacturas' element={<ListadeOrdenCompra/>}/>
+        <Route path='/Generar-adquisicion-asia' element={<Adquisicion/>}/>
+        <Route path="/Generar-adquisicion-America" element={<AdquisicionAmerica/>}/>
+        <Route path="/Lista-Productos" element={<ListaProductos/>}/>
+        <Route path="/Manejo-de-Stock" element={<ListaProductosEdit/>}/>
+        <Route path='/Seguimiento-Pedidos' element={<SeguimientoAdquisicion/>}/>
+        <Route path='/Ingreso-Ventas' element={<IngresarVenta/>}/>
+        <Route path='/Adm.-de-Facturas' element={<ListadeOrdenCompra/>}/>
         
         <Route path='*/paginaError' element={<AdquisicionAmerica/>}/>
         

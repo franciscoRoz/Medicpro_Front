@@ -57,25 +57,24 @@ const NavButton= ({
     {hasSubNav && <img alt="arrow down" src="https://res.cloudinary.com/dgi90lgbq/image/upload/v1705254404/dqvbyntcl9tuy7exunrk.png" width={"15px"} height={"15px"} />}
   </button>
 );
-const SubNavButton= ({
-    onClick,
-    name,
-    icon,
-    isActive,
-    hasSubNav,
-  }) => (
-    <button
-      type="button"
-      onClick={() => onClick(name)}
-      className={isActive ? "active" : ""}
-    >
-      {icon && <Icon icon={icon} />}
-      <Link className="SubnavButton" to={name.replaceAll(' ', '')}>{name}</Link>
-      {//<a className="SubnavButton" href={name.replaceAll(' ','')}>{name}</a>
-      }
-      {hasSubNav && <img alt="arrow down" src="https://res.cloudinary.com/dgi90lgbq/image/upload/v1705254404/dqvbyntcl9tuy7exunrk.png" width={"15px"} height={"15px"} />}
-    </button>
-  );
+const SubNavButton = ({
+  onClick,
+  name,
+  icon,
+  isActive,
+  hasSubNav,
+}) => (
+  <button
+    type="button"
+    onClick={() => onClick(name)}
+    className={isActive ? "active" : ""}
+  >
+    {icon && <Icon icon={icon} />}
+    <Link className="SubnavButton" to={`/${name.replaceAll(' ', '-')}`}>{name}</Link>
+
+    {hasSubNav && <img alt="arrow down" src="https://res.cloudinary.com/dgi90lgbq/image/upload/v1705254404/dqvbyntcl9tuy7exunrk.png" width={"15px"} height={"15px"} />}
+  </button>
+);
 
 
 const SubMenu = ({ item, activeItem, handleClick }) => {

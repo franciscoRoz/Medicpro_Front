@@ -10,10 +10,10 @@ import {Sidebar} from './Components/SideBar'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Sidebar/>
    
-    <BrowserRouter>
-    
+   
+    <BrowserRouter basename="/">
+    <Sidebar/>
     <div className='bloque-layout'><AppRoutes /></div>
     </BrowserRouter>
   

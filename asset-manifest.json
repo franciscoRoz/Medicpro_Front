@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Medicpro_Front/static/css/main.4406906e.css",
-    "main.js": "/Medicpro_Front/static/js/main.bbaf84ca.js",
+    "main.css": "/Medicpro_Front/static/css/main.4f9165a5.css",
+    "main.js": "/Medicpro_Front/static/js/main.a437a6ab.js",
     "index.html": "/Medicpro_Front/index.html",
-    "main.4406906e.css.map": "/Medicpro_Front/static/css/main.4406906e.css.map",
-    "main.bbaf84ca.js.map": "/Medicpro_Front/static/js/main.bbaf84ca.js.map"
+    "main.4f9165a5.css.map": "/Medicpro_Front/static/css/main.4f9165a5.css.map",
+    "main.a437a6ab.js.map": "/Medicpro_Front/static/js/main.a437a6ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.4406906e.css",
-    "static/js/main.bbaf84ca.js"
+    "static/css/main.4f9165a5.css",
+    "static/js/main.a437a6ab.js"
   ]
 }
